@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Stock Market Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📈 Stock Market Management</h1>
+
+    <form id="stockForm" class="form">
+      <input type="text" id="symbol" placeholder="Symbol" required>
+      <input type="text" id="company" placeholder="Company Name" required>
+      <input type="number" id="price" placeholder="Price" step="0.01" required>
+      <button type="submit">Add Stock</button>
+    </form>
+
+    <h2>Available Stocks</h2>
+    <div class="table-wrap">
+      <table id="stockTable">
+        <thead>
+          <tr><th>ID</th><th>Symbol</th><th>Company</th><th>Price</th><th>Actions</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
