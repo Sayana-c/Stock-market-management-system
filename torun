@@ -3,3 +3,6 @@ run stockapp.java
 USE stockdb;
 SHOW TABLES;
 SELECT * FROM stocks;
+
+run index.html in browser
+>
