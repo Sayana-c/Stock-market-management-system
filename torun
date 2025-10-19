@@ -6,3 +6,39 @@ SELECT * FROM stocks;
 
 run index.html in browser
 >
+
+1)install Git (if not installed)
+After installation, check in terminal/command prompt:
+>>>git --version
+
+2)Initialize Git in your Eclipse project
+Open Command Prompt / Terminal.
+
+Navigate to your project folder:
+>>>cd "C:\path\to\Stock-market-management"
+
+
+3)Initialize Git:
+>>>git init
+
+3)Add all files
+>>>git add .
+The . means “add all files in this folder and subfolders.”
+
+4️)Commit the files
+git commit -m "Initial commit: Stock Market Management project"
+
+5️)Connect to GitHub
+Go to your GitHub repo → click Code → HTTPS → copy URL.
+In terminal:
+>>>git remote add origin https://github.com/yourusername/stock-market-mng.git
+
+6️)Push to GitHub
+git branch -M main
+git push -u origin main
+✅All files (Java, pom.xml, hibernate.cfg.xml, HTML/CSS/JS) will now appear on GitHub properly.
+
+Tip: From now on, you just need to do:
+git add .
+git commit -m "Your message"
+git push
